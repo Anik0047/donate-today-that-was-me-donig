@@ -1,0 +1,255 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+/* First Part */
+
+.first-part {
+    text-align: center;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 900px;
+}
+
+.banar {
+    padding: 180px;
+    color: white;
+    font-weight: 100px;
+}
+
+.banar h1 {
+    font-size: 80px;
+}
+
+.banar p {
+    font-size: 20px;
+}
+
+.btn {
+    background-color: tomato;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    padding: 15px 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/* Second Part */
+
+.second-part {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.second-part h1 {
+    font-size: 50px;
+    font-weight: 1000;
+    margin-bottom: 10px;
+}
+
+.second-part p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: rgb(132, 124, 124);
+}
+
+.donate-part {
+    display: flex;
+}
+
+.amount {
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 9%;
+    margin-bottom: 50px;
+    padding: 20px;
+    border: none;
+    background-color: ghostwhite;
+    color: rgb(133, 131, 131);
+}
+
+#amount {
+    background-color: rgba(243, 140, 122, 0.265);
+    color: tomato;
+    border: solid tomato;
+}
+
+.second-part input {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid gainsboro;
+    padding: 5px 300px;
+    margin: 20px 0px;
+    font-size: 20px;
+}
+
+/* Third Part */
+
+.third-part {
+    margin: 50px 0;
+}
+
+.donation-plan {
+    text-align: center;
+
+}
+
+.donation-plan h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.donation-plan p {
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(132, 124, 124);
+}
+
+#line-gap {
+    margin-bottom: 90px;
+}
+
+.planning-part {
+    display: flex;
+    width: 1450px;
+}
+
+#plan-1 {
+    margin-left: 80px;
+    padding: 30px;
+    background-color: rgb(227, 249, 255);
+    text-align: justify;
+}
+
+#plan-2 {
+    background-color: rgb(255, 235, 194);
+    margin: 0 60px;
+    padding: 30px;
+    text-align: justify;
+}
+
+#plan-3 {
+    background-color: rgb(255, 223, 249);
+    margin-right: 80px;
+    padding: 0 30px;
+    text-align: justify;
+}
+
+#plan-3 img {
+    padding-top: 55px;
+}
+
+.plan img {
+    padding: 30px 0;
+}
+
+.plan h2 {
+    padding-bottom: 20px;
+}
+
+.plan p {
+    padding-bottom: 20px;
+}
+
+/* Fourth Part */
+
+.fourth-part {
+    display: flex;
+    margin: 150px 0;
+}
+
+.fourth-part img {
+    width: 90%;
+}
+
+.text-center {
+    width: 50%;
+}
+
+.text-center h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+    padding: 0 50px;
+}
+
+.text-center p {
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 900;
+    padding: 0 100px;
+    color: rgb(132, 124, 124);
+}
+
+.btn-change {
+    margin-left: 100px;
+}
+
+#img-change {
+    margin-left: 80px;
+}
+
+/* Fifth Part */
+
+.fifth-part {
+    text-align: center;
+}
+
+.text-line h1 {
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.text-line p {
+    font-size: 15px;
+    font-weight: 900;
+    margin-bottom: 50px;
+    padding: 0 400px;
+    color: rgb(132, 124, 124);
+}
+
+.input-filed input {
+    padding: 9px 50px;
+    border: none;
+    background-color: gainsboro;
+    text-align: justify;
+}
+
+.input-filed button {
+    font-size: 15px;
+    border: none;
+    margin: -5px;
+    padding: 9px 20px;
+}
+
+.input-filed {
+    background-color: rgb(255, 235, 194);
+    padding: 80px 100px;
+    margin: 50px 300px;
+}
+
+/* Footer */
+
+.footer {
+    height: 150px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.footer h2 {
+    padding-top: 50px;
+    color: tomato;
+    padding-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
